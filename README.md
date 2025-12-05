@@ -33,11 +33,13 @@ A estratégia de prova utilizada foi a de **Divisão e Conquista**, isolando as 
     git clone [https://github.com/Tarsila07/insertion_sort-coq.git]
     ```
 
-2.  **No VS Code:**
-    * Abra a pasta do projeto.
-    * Abra o arquivo `insertion_sort.v`.
-    * Utilize os atalhos da extensão VSCoq (geralmente `Alt + Seta Baixo` ou `Ctrl + Seta Direita`) para processar as provas passo a passo.
-    * Verifique se o comando `Qed.` ao final do arquivo é processado com sucesso (fica verde).
+2.  **Executando no CoqIDE:**
+    * Abra o aplicativo **CoqIDE**.
+    * No menu superior, vá em `File` > `Open` e selecione o arquivo `insertion_sort.v` dentro da pasta do projeto.
+    * Para processar e verificar as provas:
+        * Utilize as setas na barra de ferramentas superior (ícone de seta para baixo ou "Forward").
+        * Ou utilize o atalho `Ctrl` + `Seta para Baixo` (Windows/Linux) ou `Cmd` + `Seta para Baixo` (Mac) para avançar comando por comando.
+    * O código verificado ficará verde. Certifique-se de processar o arquivo até o final (`Qed.`) para confirmar que todas as provas estão corretas.
 
 ---
 *Projeto desenvolvido no semestre 2025/2*
